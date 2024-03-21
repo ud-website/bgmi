@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../pic/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: "Figtree", sans-serif;
+}
+
+.head {
+    width: 33%;
+    padding: 15px 20px;
+    margin: 200px auto;
+    background-image: url(../pic/squard.jpg);
+    border-radius: 30px;
+}
+
+.head h2 {
+    font-family: "Figtree", sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+.btn {
+    font-size: 25px;
+    width: 33%;
+    height: 45px;
+    border-radius: 8px;
+    margin: 30px auto;
+    display: block;
+    place-items: center;
+    background-color: #86d0d0;
+    border: #86d0d0;
+
+}
+
+.btn:hover {
+    background-color: rgb(238, 79, 79);
+}
+
+.logo img {
+    width: 140px;
+    height: 44px;
+    position: fixed;
+    display: inline-block;
+    top: 655px;
+    right: 50px;
+    filter: invert(100%);
+}
